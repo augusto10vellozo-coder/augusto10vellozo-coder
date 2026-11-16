@@ -2,7 +2,7 @@
 
 <p align="center">
   <b>Desenvolvedor Frontend Júnior</b><br>
-  HTML · CSS · JavaScript · TypeScript · React
+  React · TypeScript · JavaScript · Node.js · SQL
 </p>
 
 <p align="center">
@@ -14,35 +14,56 @@
 
 ---
 
-Construo aplicações web reais, não exercícios de curso. Venho de 7 anos em gestão de processos e
-análise — o que me deu disciplina de entrega que hoje aplico em código.
+Construo aplicações web reais, não exercícios de curso. Venho de 7 anos em gestão de processos (PCP)
+— o que me deu disciplina de entrega, leitura de processo e obsessão por dado correto, que hoje
+aplico em código.
 
 **Faço sites e sistemas web sob medida para pequenos negócios.**
 Orçamento e escopo em [augusto10vellozo-coder.github.io/site-servicos](https://augusto10vellozo-coder.github.io/site-servicos/).
 
 ## Projetos
 
-### [TaskBio](https://taskbio.com.br) — plataforma de rotina e saúde
-Agenda, treino, alimentação, hábitos e estudos no mesmo dia, com um só progresso.
-**React 19 · TypeScript · TanStack Start · Supabase · Tailwind CSS v4**
+### [TaskBio](https://taskbio.com.br) — plataforma de rotina e saúde · [código](https://github.com/augusto10vellozo-coder/taskbio)
+Agenda, treino, alimentação, hábitos e estudos no mesmo dia, com um só progresso. Em produção, com
+domínio próprio e uso diário.
+**React 19 · TypeScript · TanStack Start · Supabase · Tailwind CSS v4 · Cloudflare**
 
-- 260+ arquivos TypeScript e **311 testes automatizados** em 39 suítes
-- Row Level Security em 26 tabelas; regras de pontuação executadas no servidor por funções Postgres
+- **311 testes automatizados** em 39 suítes (Vitest), cobrindo as regras de domínio
+- Row Level Security em **26 tabelas**; pontuação decidida no servidor por funções Postgres idempotentes, com trigger que bloqueia escrita direta
+- PWA instalável com notificações push agendadas por cron no banco
 - Tema claro/escuro por tokens de CSS, aplicado antes do primeiro paint
-- PWA instalável com notificações push agendadas via service worker
+
+### [Prato Digital](https://github.com/augusto10vellozo-coder/prato-digital) — SaaS de cardápios e sites
+Plataforma para desenvolvedores venderem cardápios digitais a restaurantes: wizard de prospecção,
+CRM com quadro e funil, editor de cardápio e de site, exportação em HTML autônomo e sites públicos.
+**React 19 · TypeScript · Vite · React Router** — 40+ rotas, SPA estática, estado persistido no
+navegador com export/import em JSON.
+
+### [Motor de Diagnóstico de Energia](https://github.com/augusto10vellozo-coder/motor-diagnostico-energia) — regras plugáveis em Node
+Recebe faturas de energia normalizadas e devolve achados priorizados com evidência e nível de
+confiança, separando economia confirmada de pista a auditar.
+**Node.js puro** — 7 regras independentes, extrator de PDF do grupo Copel que lê as **coordenadas
+x/y** para reconstruir a tabela (29 de 30 PDFs nativos reconciliados) e relatório HTML offline.
+
+### [Estoque do Mercado](https://github.com/augusto10vellozo-coder/estoque-mercado) — operação de estoque
+Recebimento por código de barras, livro de movimentos com custo médio ponderado, alerta de
+reposição e API local servida na rede da loja.
+**Node.js + SQLite, zero dependências** — saldo calculado por soma de movimentos, nunca campo
+editável, com auditoria de quem mexeu e quando.
 
 ### [Painel Financeiro](https://augusto10vellozo-coder.github.io/painel-financeiro/) — dashboard consolidado
 Protótipo de alta fidelidade em **HTML, CSS e JavaScript puros**, sem framework e sem build.
 Três escopos na mesma tela (Pessoal / Empresa / Consolidado), cinco KPIs com variação percentual,
 gráfico receita × custos em SVG e distribuição por categoria.
 
+### [Sabor de Casa](https://receitassabordecasa.com.br) — site de receitas
+Site estático gerado por um script Node a partir de JSON, com schema `Recipe`, sitemap e checagem
+de conteúdo. Publicado com domínio próprio no GitHub Pages.
+
 ### [Banners HTML5 e e-mail marketing](https://github.com/augusto10vellozo-coder/portfolio-rich-media)
 Peças de campanha em arquivo único, **abaixo de 5 KB**, com animação restrita a `transform` e
 `opacity` e suporte a `clickTag`. E-mail responsivo de 600 px em tabela com CSS inline,
 compatível com Outlook.
-
-### [Sabor de Casa](https://receitassabordecasa.com.br) — site de receitas
-Layout responsivo mobile-first, HTML semântico e CSS moderno, publicado com domínio próprio.
 
 ## Stack
 
@@ -54,6 +75,7 @@ Layout responsivo mobile-first, HTML semântico e CSS moderno, publicado com dom
   <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black">
   <img src="https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white">
   <img src="https://img.shields.io/badge/Node.js-5FA04E?style=flat-square&logo=nodedotjs&logoColor=white">
+  <img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white">
   <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white">
   <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white">
   <img src="https://img.shields.io/badge/Vitest-6E9F18?style=flat-square&logo=vitest&logoColor=white">
