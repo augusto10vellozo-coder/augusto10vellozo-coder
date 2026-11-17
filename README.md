@@ -8,7 +8,7 @@
 <p align="center">
   <a href="https://augusto10vellozo-coder.github.io/site-servicos/"><img src="https://img.shields.io/badge/Servi%C3%A7os-sites%20e%20sistemas%20web-d9451c?style=flat-square" alt="Site de serviços"></a>
   <a href="https://taskbio.com.br"><img src="https://img.shields.io/badge/App%20no%20ar-taskbio.com.br-123d2c?style=flat-square" alt="App no ar"></a>
-  <a href="https://idyllic-dodol-fc7f03.netlify.app/demo"><img src="https://img.shields.io/badge/Demo-prato%20digital-e0443e?style=flat-square" alt="Demo do Prato Digital"></a>
+  <a href="https://augusto10vellozo-coder.github.io/prato-digital/demo/"><img src="https://img.shields.io/badge/Demo-prato%20digital-e0443e?style=flat-square" alt="Demo do Prato Digital"></a>
   <a href="https://www.linkedin.com/in/cezarvellozo/"><img src="https://img.shields.io/badge/LinkedIn-cezarvellozo-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
   <a href="mailto:augusto10vellozo@gmail.com"><img src="https://img.shields.io/badge/Email-augusto10vellozo@gmail.com-BB4433?style=flat-square&logo=gmail&logoColor=white" alt="Email"></a>
 </p>
@@ -37,7 +37,7 @@ domínio próprio e uso diário.
 - PWA instalável com notificações push agendadas por cron no banco
 - Tema claro/escuro por tokens de CSS, aplicado antes do primeiro paint
 
-### [Prato Digital](https://idyllic-dodol-fc7f03.netlify.app/demo) — SaaS de cardápios e sites · [código](https://github.com/augusto10vellozo-coder/prato-digital)
+### [Prato Digital](https://augusto10vellozo-coder.github.io/prato-digital/demo/) — SaaS de cardápios e sites · [código](https://github.com/augusto10vellozo-coder/prato-digital)
 Plataforma para desenvolvedores venderem cardápios digitais a restaurantes: wizard de prospecção,
 CRM com quadro e funil, editor de cardápio e de site, exportação em HTML autônomo e sites públicos.
 **React 19 · TypeScript · Vite · React Router** — 40+ rotas, SPA estática, estado persistido no
