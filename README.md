@@ -40,6 +40,12 @@ CRM com quadro e funil, editor de cardápio e de site, exportação em HTML aut�
 **React 19 · TypeScript · Vite · React Router** — 40+ rotas, SPA estática, estado persistido no
 navegador com export/import em JSON.
 
+### [Dossiê](https://augusto10vellozo-coder.github.io/dossie-crm/app.html?demo=1) — CRM de candidatos · [código](https://github.com/augusto10vellozo-coder/dossie-crm)
+Aplicativo offline em arquivo único para o RH importar a planilha de candidatos, organizar a base e
+imprimir a ficha padrão da empresa em A4.
+**HTML, CSS e JavaScript puros** — zero dependências, dados no navegador, backup em JSON e demo com
+10 candidatos fictícios.
+
 ### [Motor de Diagnóstico de Energia](https://github.com/augusto10vellozo-coder/motor-diagnostico-energia) — regras plugáveis em Node
 Recebe faturas de energia normalizadas e devolve achados priorizados com evidência e nível de
 confiança, separando economia confirmada de pista a auditar.
@@ -56,6 +62,11 @@ editável, com auditoria de quem mexeu e quando.
 Protótipo de alta fidelidade em **HTML, CSS e JavaScript puros**, sem framework e sem build.
 Três escopos na mesma tela (Pessoal / Empresa / Consolidado), cinco KPIs com variação percentual,
 gráfico receita × custos em SVG e distribuição por categoria.
+
+### [Painel do Mercado](https://augusto10vellozo-coder.github.io/painel-mercado/) — indicadores do varejo · [código](https://github.com/augusto10vellozo-coder/painel-mercado)
+Lê a exportação do PDV e a planilha de estoque e gera **um HTML offline** com venda, margem, CMV,
+ruptura, validade e contas a pagar.
+**Node.js + CSV** — importador que descarta dado pessoal por configuração e demo com base fictícia.
 
 ### [Sabor de Casa](https://receitassabordecasa.com.br) — site de receitas
 Site estático gerado por um script Node a partir de JSON, com schema `Recipe`, sitemap e checagem
