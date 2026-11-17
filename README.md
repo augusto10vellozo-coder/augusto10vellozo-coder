@@ -22,6 +22,9 @@ aplico em código.
 **Faço sites e sistemas web sob medida para pequenos negócios.**
 Orçamento e escopo em [augusto10vellozo-coder.github.io/site-servicos](https://augusto10vellozo-coder.github.io/site-servicos/).
 
+**Qualidade:** CI em todos os projetos de código, **311 testes** no TaskBio, **27** no Prato Digital e
+Lighthouse **100/100/100** nos sites publicados.
+
 ## Projetos
 
 ### [TaskBio](https://taskbio.com.br) — plataforma de rotina e saúde · [código](https://github.com/augusto10vellozo-coder/taskbio)
