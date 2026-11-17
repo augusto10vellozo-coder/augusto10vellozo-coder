@@ -61,7 +61,7 @@ gráfico receita × custos em SVG e distribuição por categoria.
 Site estático gerado por um script Node a partir de JSON, com schema `Recipe`, sitemap e checagem
 de conteúdo. Publicado com domínio próprio no GitHub Pages.
 
-### [Banners HTML5 e e-mail marketing](https://github.com/augusto10vellozo-coder/portfolio-rich-media)
+### [Banners HTML5 e e-mail marketing](https://augusto10vellozo-coder.github.io/portfolio-rich-media/) — peças de campanha · [código](https://github.com/augusto10vellozo-coder/portfolio-rich-media)
 Peças de campanha em arquivo único, **abaixo de 5 KB**, com animação restrita a `transform` e
 `opacity` e suporte a `clickTag`. E-mail responsivo de 600 px em tabela com CSS inline,
 compatível com Outlook.
