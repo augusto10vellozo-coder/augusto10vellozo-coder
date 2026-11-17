@@ -52,6 +52,11 @@ confiança, separando economia confirmada de pista a auditar.
 **Node.js puro** — 7 regras independentes, extrator de PDF do grupo Copel que lê as **coordenadas
 x/y** para reconstruir a tabela (29 de 30 PDFs nativos reconciliados) e relatório HTML offline.
 
+### [Controle de Faturas de Energia](https://augusto10vellozo-coder.github.io/site-servicos/casos/controle-faturas.html) — automação interna
+Painel offline que lê PDFs de faturas, confere a emissão por unidade e estima a economia solar.
+**Node.js · PDF · OCR · HTML offline** — código privado; o case mostra o fluxo e as telas com dados
+fictícios.
+
 ### [Estoque do Mercado](https://github.com/augusto10vellozo-coder/estoque-mercado) — operação de estoque
 Recebimento por código de barras, livro de movimentos com custo médio ponderado, alerta de
 reposição e API local servida na rede da loja.
